@@ -35,6 +35,13 @@ p {
   color:#fff;
 }
 
+.top{
+  background-image: url("/images/kashmiri-girl.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
 .white-section{
 background-color: #fff;
 }
@@ -120,6 +127,32 @@ background-color: #fff;
   margin: 20px;
 }
 
+.feran-image{
+  width: 210px;
+  border-radius: 4%;
+  margin: 30px;
+}
+
+.feran-image:hover{
+opacity: 0.6;
+transform: scale(0.8);
+}
+
+.artwork{
+  width: 350px;
+  margin: 25px;
+}
+
+.artwork-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card:hover{
+  transform: scale(0.9);
+  opacity: 0.6;
+}
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
@@ -128,11 +161,12 @@ background-color: #fff;
 .press-logo {
   width: 200px;
   height: 230px;
-  margin: 20px 20px 50px;
-  border-radius: 10%;
+  margin: 20px 20px 30px;
+  border-radius: 20%;
 }
 .press-logo:hover {
   opacity: 0.5;
+  transform: scale(1.1);
 }
 
 
