@@ -138,6 +138,35 @@ opacity: 0.6;
 transform: scale(0.8);
 }
 
+.pashmina{
+  background-image: url(/images/pashmina-bg.jpeg) ;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 900px;
+  color: white;
+  text-align: center;
+}
+
+.pashmina-tagline{
+padding-top: 45.8%;
+text-decoration-line: overline;
+}
+
+.pashmina-tagline:hover{
+  transform: scale(1.1);
+}
+
+.pashmina-image{
+  width: 250px;
+  border-radius: 4%;
+  margin: 30px;
+}
+
+.pashmina-image:hover{
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
 .artwork{
   width: 350px;
   margin: 25px;
@@ -153,9 +182,8 @@ transform: scale(0.8);
   transform: scale(0.9);
   opacity: 0.6;
 }
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+#products {
+ padding-bottom: 400px;
 }
 
 .press-logo {
