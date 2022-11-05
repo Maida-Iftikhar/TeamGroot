@@ -222,6 +222,26 @@ text-decoration-line: overline;
   margin: 20px 20px;
 }
 
+/* product section */
+.product-img{
+  padding-left: 280px;
+  border-radius:5px;
+}
+
+.product-img:hover{
+  opacity: 0.6;
+
+}
+
+.know-me:hover{
+  transform: scale(1.2);
+  transform-style: preserve-3d;
+
+}
+
+.product-btn{
+  margin-left: 280px;
+}
 @media (max-width: 1028px) {
   #title {
     text-align: center;
