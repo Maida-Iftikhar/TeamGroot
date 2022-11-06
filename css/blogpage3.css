@@ -1,0 +1,67 @@
+:root {
+
+    --font: 1em/1.5 'Avenir Next', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    --font-serif: Palatino, Georgia, 'Times New Roman', serif;
+    --font-bold: 600;
+    --heading-line-height: 1.1;
+    
+   
+    --layout: grid;
+    --spacing-half: .75em;
+    --spacing-default: 1.5em;
+    --spacing-double: 3em;
+    
+ 
+    --page-width: 80em;
+    --post-width: 50em; 
+    
+   
+    --background: #fafbfc;
+    --text: #242526;
+    --primary-color: cornflowerblue;
+    --secondary-color: forestgreen;
+    --tertiary-color: tomato;
+}
+
+html {
+    font: 1em/1.5 'Avenir Next', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    text-rendering: optimizelegibility;
+    background: #fafbfc;
+    color: #232425;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+p {
+    font-size: 1.125em;
+    margin: 0;
+}
+
+header {
+    font-family: Palatino, Georgia, 'Times New Roman', serif;
+    padding: 1.5em;
+    background: burlywood;
+}
+
+header > * {
+    margin: 0;
+}
+
+
+main {
+    display: block; /* IE */
+    margin: 4em auto;
+    max-width: 50em;
+}
