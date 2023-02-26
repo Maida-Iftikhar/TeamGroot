@@ -31,7 +31,7 @@ p {
 
   /* sections */
 .colored-section{
-  background-color: #ae5360;
+  background-color: #6B3F3F;
   color:#fff;
 }
 
@@ -107,12 +107,12 @@ background-color: #fff;
 }
 
 .icon:hover {
-  color: #a44a57;
+  color: #6B3F3F;
 }
 
 /* testimonial section  */
 #testimonials {
-  background-color: #ef8172;
+  background-color:#F6C19F;
   color: #fff;
 }
 
@@ -267,7 +267,7 @@ nav{
   z-index: 99;
   width: 100%;
 
-  background: #c54a5b;
+  background:#6B3F3F;
 }
 nav .wrapper{
   position: relative;
